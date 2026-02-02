@@ -1,10 +1,13 @@
 .arena {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   /* 🦊 Active Flexbox sur l'arena. */
   /* Répartis les items sur toute la largeur. */
   /* Aligne-les verticalement au centre. */
 }
 
 /* 🟢 Auto-évaluation */
-/* 1) Ai-je bien réparti les éléments sur toute la largeur ? */
-/* 2) Les trois blocs restent-ils bien centrés verticalement quand je redimensionne la fenêtre ? */
-/* 3) L'HTML est-il intact ? */
+/* 🟢 1) Ai-je bien réparti les éléments sur toute la largeur ? */
+/* 🟢 2) Les trois blocs restent-ils bien centrés verticalement quand je redimensionne la fenêtre ? */
+/* 🟢 3) L'HTML est-il intact ? */
