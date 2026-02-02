@@ -1,10 +1,13 @@
 .arena {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.6rem;
   /* 🦊 Active Flexbox sur l'arena. */
   /* Affiche les éléments en colonne inversée. */
   /* Ajoute un espace régulier entre les items si besoin. */
 }
 
 /* 🟢 Auto-évaluation */
-/* 1) Ai-je utilisé flex-direction correctement ? */
-/* 2) L'ordre visuel est-il inverse sans toucher au HTML ? */
-/* 3) Les items restent-ils lisibles et espacés ? */
+/* 🟢 1) Ai-je utilisé flex-direction correctement ? */
+/* 🟢 2) L'ordre visuel est-il inverse sans toucher au HTML ? */
+/* 🟢 3) Les items restent-ils lisibles et espacés ? */
